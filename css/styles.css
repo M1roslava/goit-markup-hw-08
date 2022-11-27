@@ -47,6 +47,16 @@
   padding-right: 15px;
   margin:0 auto;
   }
+
+
+  @media screen and (min-width:400px) and (max-width:767px){
+    .container { 
+    width: 480px;
+    padding-left: 15px;
+    padding-right: 331px;
+    margin:0 auto;
+  }}
+
   /* Общий CSS для Студии и Портфолио */
   /* Header */
   img {
@@ -67,6 +77,8 @@
   border-bottom: 1px solid #ECECEC;
   }
   /* Логотип */
+
+
   .header__logo--link{
     color:var(--primary-accent-color);
   }
@@ -86,6 +98,7 @@
     padding:0;
     list-style:none;
   }
+ 
   .navigation {
       display: flex;
       align-items: center;
@@ -246,6 +259,13 @@
 
   padding: 200px 0px;
     }
+
+    @media screen and (min-width:480px) and (max-width:767px) {
+    .solutions {
+      width: 480px;
+      
+    }
+    }
   .flex-projects {
 display: flex;
 width: 1200px;
@@ -268,8 +288,17 @@ margin-right: auto;
   text-transform: uppercase;
   text-align: center;
   }
+  @media screen and (min-width:480px) and (max-width:767px) {
+    .solutions__title-h1 {
+      margin-top:118px;
+      margin-bottom:30px;
+      margin-left: 60px;
+      margin-right:60px;
+      text-align: center;
+    }
+    }
   
-  .solutions__order-button{
+  .solutions__order-button {
     /*параментры поля кнопки */
   background:var(--primary-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -293,6 +322,13 @@ margin-right: auto;
   transition-duration: 250ms;
   cursor: pointer;
   }
+  @media screen and (min-width:480px) and (max-width:767px) {
+    .solutions__order-button  {
+      margin-left: 140px;
+      margin-left: 14opx;
+    }
+  }
+  
   .solutions__order-button:hover {
   text-decoration: underline var(--primary-accent-color);
   color:var(--main-bcg-color);
@@ -642,7 +678,12 @@ transition: 250ms var(--timing-function);
       background:var(--main-bcg-color);
       padding-bottom:94px;
     }
-    
+    @media screen and (min-width:480px) and (max-width:786px) {
+    .tasks {
+      display:none;
+     }
+    }
+
     .section-three {
     background: var(--secondary-bcg-color);
     }
