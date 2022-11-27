@@ -1,0 +1,61 @@
+/* Секция преимущества, заголовок скрыт */
+  .title-hidden {
+    font-size: 0px;
+  }
+
+  .advantages {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  .advantage {
+    display:flex;
+
+  }
+  .icon__container {
+
+    width: 270px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    align-items: center;
+    padding-top:25px;
+    padding-bottom:25px;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .advantage__icons {  
+    width:70px;
+    height:70px;
+    align-items: center;
+    color:#212121;
+    }
+
+  .advantages__list {
+  display:flex;
+  }
+  .advantage__item {
+    display:flex;
+    flex-wrap: wrap;
+    width:270px;
+  }
+ .advantage__item:not(:last-child) {
+  margin-right: 30px;
+ }
+
+  .title__advantages {
+  margin-bottom: 10px;
+   font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color:var(--h-text-color);
+  }
+  .context__advantages {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 1.7; 
+      letter-spacing: 0.03em;
+      color:var(--main-text-color)
+  }
