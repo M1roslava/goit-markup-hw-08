@@ -1,4 +1,5 @@
-.tasks {
+/* Задачи */
+.tasks__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -7,7 +8,7 @@
   letter-spacing: 0.03em;
   margin-bottom: 50px;
   }
-  .section-tasks {
+  .tasks {
     background:var(--main-bcg-color);
     padding-bottom:94px;
   }
@@ -15,15 +16,15 @@
   .section-three {
   background: var(--secondary-bcg-color);
   }
-  .task{
+  .tasks__container{
     display:flex;
   }
-  .task-block {
+  .tasks__block {
     position: relative;
 
   
   }
-  .text-img {
+  .tasks__img {
   position: absolute;
   bottom:0;
   left:0;
@@ -34,7 +35,7 @@
   height: 70px;
   background: rgba(47, 48, 58, 0.8);
   }
-  .task-description {
+  .tasks__description {
     text-align: center;
   font-weight: 700;
 font-size: 14px;
@@ -44,17 +45,17 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #FFFFFF;
   }
-  .task-item {
+  .tasks__item{
     width: 370px;
     margin-right: 30px;
   }
-.task-item:last-child {
+.tasks__item:last-child {
 margin-right: 0px;
 }
-  .tasks-list {
+  .tasks__list{
     display: flex;
   }
  
-    .tasks-list:not(:last-child) {
+    .tasks__list:not(:last-child) {
     margin-right: 30px;
   }

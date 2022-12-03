@@ -47,6 +47,11 @@
   padding-right: 15px;
   margin:0 auto;
   }
+    /* Убираю маркеры li */
+    .list {
+      list-style-type: none;
+    }
+  
   /* Общий CSS для Студии и Портфолио */
   /* Header */
   img {
@@ -231,10 +236,7 @@
   fill: currentColor;
 }
 
-  .header-list {
-  text-decoration:none;   
-  display: flex;
-  }
+ 
 
 
   .solutions {
@@ -558,10 +560,6 @@ transition: 250ms var(--timing-function);
   .list {
     list-style-type: none;
   }
-
-
-
-
 
 
 

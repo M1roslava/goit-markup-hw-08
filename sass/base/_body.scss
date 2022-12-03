@@ -1,11 +1,58 @@
-body {
+/* Палитра цветов 
+цвет телефона и почты #757575 
+цвет акцента  в навигации #2196F3 
+цвет кнопки #2196F3
+цвет акцент на кнопке #188CE8 
+цвет заголовков #212121
+основной цвет текста  #757575
+текст в секции 1 #FFFFFF
+основной цвет фона #FFFFFF
+цвет подвала #2F303A
+цвет секции #F5F4FA
+цвет кнопок в Портфолио  #F5F4FA
+*/
+:root {
+  --primary-accent-color: #2196F3;
+  --main-text-color: #757575;
+  --secondary-accent-color: #188CE8;
+  --main-bcg-color: #FFFFFF;
+  --secondary-bcg-color: #F5F4FA;
+  --footer-color: #2F303A;
+  --h-text-color:#212121;
+  --timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  }
+   /* Глобальные характеристики */
+  
+  body {
   background-color:var(--main-bcg-color);
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
   /* шрифт большинства, текст,футер,адреса*/
   }
-    a .site-nav,
-  a .contacts-footer {
+  a {
     text-decoration: none;
+    transition-property: color;
+    transition-duration: 250ms;
+  }
+  
+  a .navigation__list,
+  a .footer__contacts {
+    text-decoration: none;
+  }
+  .container {
+
+padding-left:15px;
+padding-right: 15px;
+margin-right: auto;
+margin-left: auto;
+
+@media (min-width:480px) {
+  width: 480px;
+}
+
+  /* width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin:0 auto; */
   }
