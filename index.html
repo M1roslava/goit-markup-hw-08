@@ -10,29 +10,35 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
    <!-- <link rel="stylesheet" href="./css/styles.css" />  -->
-    <link rel="main-css" href="./css/main.min.css"/>
+    <link rel="stylesheet" href="./css/main.min.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <body class="body">
     <header class="header">
-        <div class="container user">
+              <div class="container user">
         <a href="/" class="header__logo--link">
             <span class="header__logo-one--link">Web</span>Studio
         </a>
-        <nav class="navigation">
+        <button type="button" class="menu-button"aria-expanded="false" aria-controls="menu/container" data-menu-button>
+            <svg width ="16" aria-label="Menu switcher">
+                <use class="icon-cross" href="./images/sprite.svg#icon-menu">_</use>
+                <use class="icon-menu" href="" >shadow-root (closed)</use>
+            </svg> </button>
+
+        <div class="menu-container" id="menu/container" data-menu>_</div>>
+             <nav class="navigation">
             <ul class="navigation__list">
                 <li class="navigation__li"><a class="link current" href="">Студия</a></li>
                 <li class="navigation__li"><a class="link" href="portfolio.html">Портфолио</a></li>
                 <li class="navigation__li"><a class="link" href="">Контакты</a></li>
                 </ul> </nav>
-
            <ul class="connect list">
             <a class="connect__contacts item" href="mailto:info@devstudio.com"><svg class="envelope-icon">         
             <use href="./images/sprite.svg#icon-envelope"></use></svg>info@devstudio.com</a>
            <a class="connect__contacts item phone" href="tel:+380991111111"> <svg class="smartphone-icon"><use href="./images/sprite.svg#icon-smartphone"></use></svg>+38 099 111 11 11</a>
-           </ul>
+           </ul></div>
        </div>
 </header>
 <main>
@@ -171,7 +177,7 @@
         <h2 class="our-heroes__title main">Наша команда</h2>
         <ul class="our-heroes__list list">
             <li class="our-heroes__team-box">
-                <img src="images/img4.jpg" alt="Игорь Демьяненко" width="270">
+                <img src="images/img4.jpg" alt="Игорь Демьяненко" >
                 <div class="studio__container">
                 <h3 class="studio__team-title">Игорь Демьяненко</h3>
                 <p class="studio__post-title">Product Designer</p>
@@ -201,7 +207,7 @@
             </li>
 
             <li class="our-heroes__team-box">
-                <img src="images/img5.jpg" alt="Ольга Репина" width="270">
+                <img src="images/img5.jpg" alt="Ольга Репина">
                 <div class="studio__container">
                     <h3 class="studio__team-title">Ольга Репина</h3>
                 <p class="studio__post-title">Frontend Developer</p>
@@ -230,7 +236,7 @@
                 </ul></div>
             </li>
             <li class="our-heroes__team-box">
-                <img src="images/img6.jpg" alt="Николай Тарасов" width="270">
+                <img src="images/img6.jpg" alt="Николай Тарасов" >
                 <div class="studio__container">
                     <h3 class="studio__team-title">Николай Тарасов</h3>
                 <p class="studio__post-title">Marketing</p>
@@ -259,7 +265,7 @@
                 </ul></div>
             </li>
             <li class="our-heroes__team-box">
-                <img src="images/img7.jpg" alt="Михаил Ермаков" width="270">
+                <img src="images/img7.jpg" alt="Михаил Ермаков">
                 <div class="studio__container">
                     <h3 class="studio__team-title">Михаил Ермаков</h3>
                 <p class="studio__post-title" >UI Designer</p>

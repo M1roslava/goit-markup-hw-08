@@ -9,7 +9,10 @@
   margin-bottom: 50px;
   }
   .tasks {
-    background:var(--main-bcg-color);
+    @media screen and (min-width:480px) {
+      display: none;
+    }
+   background:var(--main-bcg-color);
     padding-bottom:94px;
   }
   

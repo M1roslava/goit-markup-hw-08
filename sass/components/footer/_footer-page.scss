@@ -52,9 +52,13 @@ transition-property:background-color;
   cursor: pointer;
 }
 .footer__list {
-display:flex;
+  @media screen  and (min-width:480px) {
+    display: block;}
+
+  @media screen  and (min-width:480px) {
+    display:flex;
 align-items:baseline;
-}
+}}
 .icon-footer {
   width:20px;
   height:20px;
