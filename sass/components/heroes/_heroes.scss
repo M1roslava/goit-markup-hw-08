@@ -39,8 +39,12 @@ border-radius: 0px 0px 4px 4px;
 text-align: center;
 letter-spacing: 0.03em;
 background-color: #FFFFFF;
+padding:15px;
+margin-bottom: 30px;
+
 @media screen  and (min-width:480px) {
 padding:15px;
+margin-bottom: 30px;
 }
 
 
@@ -51,6 +55,8 @@ padding:15px;
 }
 
 .our-heroes__team-box:last-child {
+  @media screen  and (min-width:480px) {
+    margin-bottom: 0px;
   @media screen  and (min-width:1140px) {
   margin-right:0px;
 }}
@@ -125,4 +131,4 @@ transition-property:background-color;
   justify-content: center;
   align-items:center;
  cursor: pointer;
-}
+}}

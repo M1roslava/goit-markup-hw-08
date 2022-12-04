@@ -29,6 +29,9 @@
  
    padding-left: 15px;
    padding-right: 15px;
+   width: 450px;
+   display: flex;
+   justify-content: center;
   }
   background-color: #F5F4FA;
   border-radius: 4px;
@@ -39,10 +42,7 @@
   padding-left: 100px;
   padding-right: 100px;
 
-  @media screen  and (min-width:480px) {
-  width:450px;
-  align-items: center;
-  } 
+ 
   margin-bottom: 30px;
   align-items: center;
   padding-top:25px;
